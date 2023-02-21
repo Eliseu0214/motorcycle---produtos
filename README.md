@@ -76,26 +76,6 @@
         </ul>
       </aside>
     </div>
-    <!--Cart-->
-    <div class="cart-overlay">
-      <aside class="cart">
-        <button class="cart-close">
-          <i class="fas fa-times"></i>
-        </button>
-        <header>
-          <h3 class="text-slanted">Seu carrinho</h3>
-        </header>
-        <!--Cart items-->
-        <div class="cart-items"></div>
-        <!--Footer-->
-        <footer>
-          <h3 class="cart-total text-slanted">
-            Total: R$ 12.99
-          </h3>
-          <button class="cart-checkout btn">Sair</button>
-        </footer>
-      </aside>
-    </div>
     <!--Product info-->
     <section class="single-product">
       <div class="section-center single-product-center">
