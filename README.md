@@ -28,7 +28,7 @@
                     </li>
                     <li>
                         <a href="" class="nav-links">
-                            Customisação
+                            Customização
                         </a>
                     </li>
                     <li>
@@ -67,7 +67,13 @@
             <li>
               <a href="about.html" class="sidebar-link">
                 <i class="fas fa-book fa-fw"></i>
-                Sobre
+                Customização
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="sidebar-link">
+                <i class="fas fa-book fa-fw"></i>
+                Eventos
               </a>
             </li>
           </ul>
