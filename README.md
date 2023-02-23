@@ -6,108 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="products.css" rel="stylesheet"/>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="nav-center">
-            <div>
-                <button class="toggle-nav">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <ul class="nav-links">
-                    <li>
-                        <a href="" class="nav-links">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="nav-links">
-                            Produtos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="nav-links">
-                            Customização
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="nav-links">
-                            Eventos
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <img src="Logo.PNG" class="nav-logo" alt="logo">
-        </div>
-    </nav>
-    <section class="page-hero">
-        <div class="section-center">
-          <h3 class="page-hero-title">Home / Detalhe do produto</h3>
-        </div>
-      </section>
-      <div class="sidebar-overlay">
-        <aside class="sidebar">
-          <button class="sidebar-close">
-            <i class="fas fa-times"></i>
-          </button>
-          <ul class="sidebar-links">
-            <li>
-              <a href="index.html" class="sidebar-link">
-                <i class="fas fa-home fa-fw"></i>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="products.html" class="sidebar-link">
-                <i class="fas fa-couch fa-fw"></i>
-                Produtos
-              </a>
-            </li>
-            <li>
-              <a href="about.html" class="sidebar-link">
-                <i class="fas fa-book fa-fw"></i>
-                Customização
-              </a>
-            </li>
-            <li>
-              <a href="about.html" class="sidebar-link">
-                <i class="fas fa-book fa-fw"></i>
-                Eventos
-              </a>
-            </li>
-          </ul>
-        </aside>
+  <nav class="navbar navbar-expand-lg bg-white-tertiary border border-warning-2">
+    <div class="container-fluid">
+       <a class="navbar-brand" href="#">
+        <img src="./Logo.PNG" alt="Logo" width="100rem" height="80rem" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#">Customs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning">Sobre/Eventos</a>
+          </li>
+        </ul>
       </div>
-      <section class="products">
-        <div class="filters">
-          <div class="filters-container">
-            <form class="input-form">
-              <input type="text" class="search-input" placeholder="search..."/>
-            </form>
-            <article class="prod">
-              <button class="prod-btn">Peças</button>
-              <button class="prod-btn">Motos</button>
-              <button class="prod-btn">Boutique</button>
-            </article>
-            <h4>Preço</h4>
-            <form class="price-form">
-              <input
-                type="range"
-                class="price-filter"
-                min="0"
-                value="50"
-                max="100"
-              />
-            </form>
-            <p class="price-value"></p>
-          </div>
-        </div>
-        <div class="products-container"></div>
-      </section>>
-      <div class="page-loading">
-        <h2>Carregando...</h2>
+    </div>
+  </nav>
+  <section class="products">
+    <div class="filters">
+      <div class="filters-container">
+        <form class="input-form">
+          <input type="text" class="search-input" placeholder="search..."/>
+        </form>
+        <article class="prod">
+          <button class="prod-btn">Peças</button>
+          <button class="prod-btn">Motos</button>
+          <button class="prod-btn">Boutique</button>
+        </article>
+        <h4>Preço</h4>
+        <form class="price-form">
+          <input
+            type="range"
+            class="price-filter"
+            min="0"
+            value="50"
+            max="100"
+          />
+        </form>
+        <p class="price-value"></p>
       </div>
-      <script type="module" src="./src/pages/products.js"></script>
+    </div>
+    <div class="products-container"></div>
+  </section>>
+  <div class="page-loading">
+      <h2>Carregando...</h2>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
 </body>
 </html>
